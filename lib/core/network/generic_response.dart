@@ -6,5 +6,9 @@ class GenericAPIResponse extends Equatable {
   final Object data;
   final String message;
 
-  GenericAPIResponse({@required this.status, this.data, this.message});
+  GenericAPIResponse({
+    @required this.status,
+    this.data,
+    this.message
+  }) : super([status, data, message]);
 }
