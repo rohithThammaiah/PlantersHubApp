@@ -22,8 +22,8 @@ void main() {
   mondayPrices.add(SpicePrice(spiceName: "Pepper",spicePrice: "100-200 / 50KG"));
 
   final tuesdayPrices = new List<SpicePrice>();
-  mondayPrices.add(SpicePrice(spiceName: "Coffee",spicePrice: "2500-3000 / 50KG"));
-  mondayPrices.add(SpicePrice(spiceName: "Pepper",spicePrice: "200-300 / 50KG"));
+  tuesdayPrices.add(SpicePrice(spiceName: "Coffee",spicePrice: "2500-3000 / 50KG"));
+  tuesdayPrices.add(SpicePrice(spiceName: "Pepper",spicePrice: "200-300 / 50KG"));
 
   final mockResponse = new List<List<SpicePrice>>();
   mockResponse.add(mondayPrices);
