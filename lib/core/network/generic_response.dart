@@ -4,6 +4,7 @@ import 'package:equatable/equatable.dart';
 class GenericAPIResponse extends Equatable {
   final String status;
   final Object data;
+  final String message;
 
-  GenericAPIResponse({@required this.status, this.data});
+  GenericAPIResponse({@required this.status, this.data, this.message});
 }
